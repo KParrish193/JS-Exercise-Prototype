@@ -117,10 +117,10 @@ function Baby(name, age, favoriteToy) {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. Global/Window Binding: 
-  2. Implicit Binding:
-  3. New Binding:
-  4. Explicit Binding:
+  1. Global/Window Binding: "this" refers to the global object regardless of context  
+  2. Implicit Binding: refers back to the object to the left of the ".". In an example of two fucntions me.sayName(), you.sayName - utilizing 'this' would refer to properties of 'me' or 'you'.
+  3. New Binding: refers to properties of a new object created from a constuctor
+  4. Explicit Binding: occurs when .call or .apply are used - .call and .apply (and similar methods) we ignore what is to the left of the dot and therefore explicitly need to pass this instead. 
 */
 
 
